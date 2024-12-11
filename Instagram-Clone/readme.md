@@ -1,5 +1,8 @@
 # Fixed Navbar and Responsive Layout Project
 
+![image](https://github.com/user-attachments/assets/681ec074-ca44-4135-bb46-28337e6477b5)
+
+
 This project involves creating a layout with a fixed navbar, responsive content areas, and several custom UI elements. Below is a detailed breakdown of the tasks and how they were implemented.
 
 ## Features and Tasks
