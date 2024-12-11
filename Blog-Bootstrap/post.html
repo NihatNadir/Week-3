@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog-Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+</head>
+
+<body class="bg-secondary">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand me-5" href="#">
+                    <p class="h1 text-light">Blog-Bootstrap</p>
+                </a>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center ms-5" id="navbarSupportedContent">
+                    <form class="d-flex flex-fill" role="search">
+                        <input class="form-control me-3 ms-5" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-secondary" type="submit">Search</button>
+                    </form>
+
+                </div>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="post.html">Blog Posts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="container mt-3">
+            <div class="row align-items-center justify-content-evenly">
+                <section class="col-sm-7 bg-dark text-light border border-2 rounded-2" style="min-height: 200px;">
+                    <h2 class="ms-2 mt-2 me-4">Unlock Your Creativity</h2>
+                    <p class="ms-2 mt-3 me-4">Dive into the world of art and design with tips and inspiration to fuel
+                        your
+                        creative journey. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eos expedita
+                        ducimus placeat laudantium magnam ex cum vero suscipit, ea dolore. Ducimus voluptatem aliquam
+                        provident perferendis atque consequuntur at quibusdam. </p>
+                </section>
+                <section class="col-sm-4 d-flex justify-content-center border border-2 rounded-2">
+                    <img src="https://picsum.photos/id/101/200/200" alt="">
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
