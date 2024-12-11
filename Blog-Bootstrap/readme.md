@@ -2,6 +2,9 @@
 
 This project is a simple blog website built using Bootstrap 5. It includes a responsive layout, navigation bar, and dynamically styled sections to present blog content effectively.
 
+![image](https://github.com/user-attachments/assets/c8409224-5356-4755-b427-5f256182209d)
+
+
 ## Features
 
 - **Responsive Design**: The website adapts to different screen sizes using Bootstrap's grid system.
